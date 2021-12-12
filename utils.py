@@ -4,6 +4,8 @@ import torch.nn as nn
 from torch.autograd import Variable
 import seaborn
 seaborn.set_context(context="talk")
+from transformerModel import subsequent_mask
+
 
 
 class NoamOpt:
